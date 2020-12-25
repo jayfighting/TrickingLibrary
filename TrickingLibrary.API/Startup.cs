@@ -9,6 +9,7 @@ namespace TrickingLibrary.API
     public class Startup
     {
         private const string AllCors = "All";
+        private const string Test = "";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,6 +29,7 @@ namespace TrickingLibrary.API
         {
             if (env.IsDevelopment())
             {
+
                 app.UseDeveloperExceptionPage();
             }
 
